@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Animal Summon</title>
+</head>
+<body>
+	<button id="animal-button">Summon an animal!</button>
+	<div id="animalpics"></div>
+
+	<script src="http://code.jquery.com/jquery-2.1.3.min.js"></script>
+	<script type="text/javascript">
+
+	$("#animal-button").on("click", function() {
+
+		var queryURL ="http://api.giphy.com/v1/gifs/random?api_key=dc6zaTOxFJmzC&tag=animals";
+
+		$.ajax({url:queryURL,
+				method: "GET"
+				})
+		.done(function(response) {
+
+			console.log(response);
+			var imageURL=response.data.image_original_url;
+
+			var animalpic= $("<img>");
+
+			animalpic.attr("src", imageURL);
+			animalpic.attr("alt", "animal pic");
+
+			$("#animalpics").html(animalpic);
+		});
+	});
+	</script>
+</body>
+</html>
