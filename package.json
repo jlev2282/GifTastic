@@ -1,0 +1,22 @@
+{
+  "name": "giftastic",
+  "version": "1.0.0",
+  "description": "giphy app",
+  "main": "gif.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jlev2282/GifTastic.git"
+  },
+  "keywords": [
+    "giphylev"
+  ],
+  "author": "John Leverett",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jlev2282/GifTastic/issues"
+  },
+  "homepage": "https://github.com/jlev2282/GifTastic#readme"
+}
