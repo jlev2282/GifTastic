@@ -9,7 +9,7 @@ function createButton () {
 		
 	$("div.buttonHome").children().attr("class", "animal-button");
 
-}
+};
 
 createButton(topics);
 
