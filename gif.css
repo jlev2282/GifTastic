@@ -1,5 +1,5 @@
-.stagebox {
-    background-color: lightblue;
+.stagebox {	
+    background: rgba(135, 206, 250, 0.9);
     border: solid;
     border-color: blue;
     border-radius: 5px;
@@ -11,7 +11,7 @@ body{
 }
 
 #instructions {
-    background-color: lightblue;
+    background-color: #87cefa;
     text-align: center;
     font-weight: bold;
     border-radius: 5px;
