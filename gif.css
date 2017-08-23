@@ -1,4 +1,9 @@
-body {
+stage {
     background-color: black;
     color: blue;
-}
+};
+
+stagebox {
+    border: solid;
+    border-color: black;
+};
