@@ -1,9 +1,15 @@
-stage {
+/*#stage {
     background-color: black;
     color: blue;
-};
+};*/
 
-stagebox {
+.stagebox {
+    background-color: lightblue;
     border: solid;
-    border-color: black;
-};
+    border-color: blue;
+}
+
+body{
+    /*background-color:lightblue;*/
+    background-image: url("https://i.giphy.com/media/l41YlHs99JsSptZf2/200_s.gif");
+}
